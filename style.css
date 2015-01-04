@@ -4,7 +4,7 @@ body {
     font:15px/26px 'Open Sans', Verdana, sans-serif;
     color:#333333;
     font-weight:400;
-    background: #ffffff url('image/background.jpg') top center repeat fixed;
+    background: #ffffff url('image/background2.jpg') top center ;
 }
 
 .clearfix:after {
@@ -99,8 +99,9 @@ img {
 
 
 header {
-	background-color:#ffffff;
-	color:#333333;
+
+    background: #ffffff url("image/background.jpg");;
+    color:#333333;
     position:fixed;
     top:0;
     height:80px;
@@ -154,13 +155,17 @@ section {
 }
 #home {
     text-align:center;
-    margin-top:80px;
+    margin-top:50px;
     padding:130px 0;
 }
-#about,
-#team,
-#contact {
-    background-color:#ffffff;
+
+#home h1{
+	font-size:50px;
+	font-family:'Droid Sans', cursive;
+}
+#about
+{
+    background: #ffffff url("image/background.jpg");
     box-shadow: 0px 0px 3px #000;
         -moz-box-shadow: 0px 0px 3px #000;
         -webkit-box-shadow: 0px 0px 3px #000;
@@ -169,7 +174,7 @@ section {
     background-color: #005992;
     padding:20px;
     overflow: hidden;
-    border-radius:3px;
+    border-radius:3px;backgroun
         -moz-border-radius:3px;
     box-shadow: 0px 0px 3px #000;
         -moz-box-shadow: 0px 0px 3px #000;
