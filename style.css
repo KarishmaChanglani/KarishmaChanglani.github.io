@@ -160,8 +160,10 @@ section {
 }
 
 #home h1{
-	font-size:50px;
+	font-size:60px;
 	font-family:'Droid Sans', cursive;
+	color: #736B6C;
+	text-shadow: 0px 1px 1px #000000;
 }
 #about
 {
