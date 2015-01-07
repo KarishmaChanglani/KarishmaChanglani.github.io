@@ -44,12 +44,14 @@ h1 {
     font-size:26px;
     margin-top:30px;
     line-height:30px;
+    color: #736B6C;
 }
 h2 {
     font-weight:400;
     font-size:22px;
     margin-bottom:30px;
     text-transform:uppercase;
+    color: #736B6C;
 }
 p {
     margin:0 0 15px 0;
@@ -325,6 +327,7 @@ footer a:hover {
         text-align:left;
         width:100%;
         margin-top:40px;
+	color: #736B6C;
     }  
     nav ul li {
         display: block;  
