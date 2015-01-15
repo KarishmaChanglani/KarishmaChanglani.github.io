@@ -167,13 +167,19 @@ section {
 	color: #736B6C;
 	text-shadow: 0px 1px 1px #000000;
 }
-#about
+#content
 {
     background: #ffffff url("image/background.jpg");
     box-shadow: 0px 0px 3px #000;
         -moz-box-shadow: 0px 0px 3px #000;
         -webkit-box-shadow: 0px 0px 3px #000;
 }
+
+#contact
+{
+   margin-left:24%;
+}
+
 #promo {
     background-color: #005992;
     padding:20px;
