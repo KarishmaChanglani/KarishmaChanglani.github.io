@@ -1,0 +1,24 @@
+name: "Karishma"
+description: "Personal Website powered by Jekyll"
+
+url: "http://karishmachanglani.me"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty 
+
+defaults: 
+-
+ scope:
+   path: "" #Meaning all paths
+   type: "pages"
+ values: 
+   my_name: "Karishma Changlani"
+   year: "sophomore"
+   university: "Drexel University"
+   resume_link: "pdf/resume.pdf"
+   blog_link: "https://digitallyartistic.wordpress.com/"
+   contact_link: "contact.html"
+   gallery_link: "http://doodler0305.deviantart.com/gallery/"
+   email: "karishmachanglani@gmail.com"
