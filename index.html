@@ -1,62 +1,35 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="Karishma Changlani,Karishma,Changlani,Computer Science,Drexel,Student,Developer,Web,Game Engineer, Machine Learning, Artificial Intelligence" />
-		<meta name="author" content="Karishma Changlani" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,600italic' rel='stylesheet' type='text/css' />
-		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
-		<script type="text/javascript" src="js/scripts.js"></script>
-		<link rel="stylesheet" href="style.css" />
-		<title> Karishma Changlani</title>
-	</head>
-	<body>
-		<header>
-			<div class="wrap">
-				<nav>
-					<ul id="top-menu">
-						<li><a href="pdf/resume.pdf" target="_blank">Resume</a></li>
-						<li><a href="https://digitallyartistic.wordpress.com/" target="_blank">Blog</a></li>
-						<li><a href="http://doodler0305.deviantart.com/gallery/" target="_blank">Gallery</a></li>
-						<li><a href="contact.html">Contact Me</a></li>
+---
+layout: page
+---
 
-					<div id="pull">
-				        <span class="btn">Menu</span>
-				    </div>
-				</nav>
-			</div>
-		</header>
-		<section id="home">
-			<h1>Karishma Changlani</h1>
-		</section>
-		<section id="content">
-			<div class="wrap">
-				<h2>About Me</h2>
-                                <p> 
-                                    Hello there! My name is Karishma Changlani and 
-                                    I am sophomore at Drexel University studying for BS in 
-                                    Computer Science. While my interests in CS lie mainly in 
-                                    Machine Learning and Game Engineering I find the entire 
-                                    field of computing very intriguing. You can look at my 
-                                    <a href="pdf/resume.pdf" target="_blank"> resume </a> 
-                                    to learn more about my projects and skills.
-                                    
-                                    I am heavily interested in Digital Art and Fantasy 
-                                    writing. To ask more use the <a href="contact.html" > contact page </a>
-                                    or email me at karishmachanglani@gmail.com
-                                    I love sharing my interests and experiences in all 
-                                    the above fields so please feel free to drop by a message. 
-                                    
-                                    You can even learn more about my everyday experiences and views, especially those
-                                    those related to CS and Digital Art on my <a href="https://digitallyartistic.wordpress.com/"> 
-                                    blog </a> or check out my <a href="https://doodler0305.deviantart.com"> gallery </a> 
-                                    for more of my art. 
-                                </p>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
 
-			</div>
-		</section>
-	</body>
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

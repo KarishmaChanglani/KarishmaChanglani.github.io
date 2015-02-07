@@ -1,24 +1,29 @@
-name: "Karishma"
-description: "Personal Website powered by Jekyll"
+# Site settings
+title: Karishma Changlani
+header-img: img/home-bg.jpg
+email: karishmachanglani@gmail.com
+description: "Welcome! My name is Karishma Changlani and this my website."
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: Doodler0305
+github_username:  KarishmaChanglani
+facebook_username: pages/Digitially-Artitstic/437100696439522
+gallery_link: "http://doodler0305.deviantart.com/gallery/"
 
-url: "http://karishmachanglani.me"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 3
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-paginate: 10
-
-markdown: rdiscount
-permalink: pretty 
-
-defaults: 
+#Defaults
+defaults:
 -
- scope:
-   path: "" #Meaning all paths
-   type: "pages"
- values: 
-   my_name: "Karishma Changlani"
-   year: "sophomore"
-   university: "Drexel University"
-   resume_link: "pdf/resume.pdf"
-   blog_link: "https://digitallyartistic.wordpress.com/"
-   contact_link: "contact.html"
-   gallery_link: "http://doodler0305.deviantart.com/gallery/"
-   email: "karishmachanglani@gmail.com"
+    scope:
+        path: ""
+        type: "posts"
+    values: 
+        layout: "post"
+        author: "Karishma Changlani"
+        

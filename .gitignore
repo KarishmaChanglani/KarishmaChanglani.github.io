@@ -1,5 +1,2 @@
-#All zip files will be ignored
-*.zip
-*.rar
-/private/
-_*
+_site
+node_modules
