@@ -9,7 +9,7 @@ $(function() {
     $("[data-toggle='tooltip']").tooltip();
 });
 
-/*When clicking on Full hide fail/success boxes */
+When clicking on Full hide fail/success boxes 
 $('#name').focus(function() {
     $('#success').html('');
 });
@@ -44,7 +44,7 @@ $('#name').focus(function() {
     };
 
     $.jqBootstrapValidation = function(options) {
-        $(":input").not("[type=image]").jqBootstrapValidation.apply(this, arguments);
+        $(":input").not("[type=image][type=submit]").jqBootstrapValidation.apply(this, arguments);
     };
 
 })(jQuery);
