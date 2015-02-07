@@ -38,8 +38,8 @@ Fractal Art is representing these images making it much easier to perceive and t
 	<li><a title="Fractal World Generator" href="http://donjon.bin.sh/world/">This Awesome World Generator</a></li>
 	<li>These Fractal Landscapes:</li>
 </ol>
-<img class="alignnone" src="http://upload.wikimedia.org/wikipedia/commons/6/6e/FractalLandscape.jpg" alt="" width="331" height="221" /> 
-<img class="alignnone" src="http://upload.wikimedia.org/wikipedia/commons/4/40/BlueRidgePastures.jpg" alt="" width="315" height="236" />
+<img class="alignnone" src="http://upload.wikimedia.org/wikipedia/commons/6/6e/FractalLandscape.jpg" alt="" width="80%"  /> 
+<img class="alignnone" src="http://upload.wikimedia.org/wikipedia/commons/4/40/BlueRidgePastures.jpg" alt="" width="80%" />
 
 These not only serve to form a artistic representations but also help us observe fractals taking a more and more accurate 
 representation of reality. A classic example of this is the real island of Sark.
