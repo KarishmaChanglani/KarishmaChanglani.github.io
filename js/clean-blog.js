@@ -44,7 +44,7 @@ $('#name').focus(function() {
     };
 
     $.jqBootstrapValidation = function(options) {
-        $(":input").not("[type=image],[type=submit]").jqBootstrapValidation.apply(this, arguments);
+        $(":input").not("[type=image]").jqBootstrapValidation.apply(this, arguments);
     };
 
 })(jQuery);
