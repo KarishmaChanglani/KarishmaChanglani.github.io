@@ -1,0 +1,30 @@
+---
+title:      "Shrinkr"
+subtitle:   " Philadelphia Code Fest: 2015 "
+date:       2015-02-22 20:00
+header-img: "img/post-bg-02.jpg"
+---
+Shrinkr
+ 
+Speed and efficiency are two of the most demanded and defining factors of the 21st century. 
+This is especially applicable to the educational needs of students, who often require a condensed 
+and affordable version of any text to get a better idea of the big picture, with an emphasis on the
+ important facts.
+ 
+We intend on creating a multi-platform application that would involve an efficient use of machine 
+learning to makes ‘notes’ for students from any given textbook. It would take key words from the 
+appendices, analyse font format and images, and acquire statistical information on the general use 
+and subtext of the book to make these notes. As an addition option, it would also have the ability 
+to make customized notes from student-given information such as a course syllabus or study guide.
+
+Since all these databases ultimately involve getting copyrights approval from different authors,
+ we also intend on using this information for a philanthropic purpose in the future. A library 
+ containing all the important key notes would be made available offline, for usage in underprivileged 
+ communities. This will ultimately help in substantially decreasing their financial burden for educational
+ purposes and open them up to a wider range of knowledge and opportunities.
+
+ More info and github Repository coming soon. 
+ 
+ <h6>
+ Best Regards,
+ Karishma</h6>

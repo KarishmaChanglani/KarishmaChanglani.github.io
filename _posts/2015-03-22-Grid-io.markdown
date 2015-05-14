@@ -1,0 +1,35 @@
+---
+title:      "Artificial Designers"
+subtitle:   " A New Face of Web "
+date:       2015-03-20 10:00
+header-img: "img/post-bg-03.jpg"
+---
+Browsing the web one thing we all are sure to not escape is The Grid. A self proclaimed AI that can design a website for you. We have add weak AI doing a lot of cool things these days, take Siri or IBM's Watson for example, revolutionizing language detection. However, designing is a whole new statement. Curiosity let me look into this and analyze and these are my main concerns.
+
+<h3> 1. Changing UI: </h3>
+
+So one the big said advantages of this project is changing UI based on the content. And it's true that web design is by far the most dynamic field with constantly changing trends. Even so, a constantly changing can be a users worst nightmare. No matter how intuitive figuring out a website all over again every month or so seems daunting.
+
+ <h3> 2. Quality vs Quantity: </h3>
+
+As we know, the world of web is cluttered with all good and bad. There are so many websites that filtering out the good is hard as it is. With this project, finding good content can get harder than ever if most of it is designed by the same system. (This is assuming this project becomes popular) This can change a lot of how web looks.
+
+<h3> 3. Content placement: </h3>
+
+So one of the major things that matters on a website is how easily the user can get to what you want them to see, however an AI deciding that can easily lead to lot of mess ups. No matter what you do, AI technology is just not strong enough for a complete language and communication interpretation.
+
+<h3> 4. Claims of replacing designers/developers: </h3>
+
+This one got me the most. Ever since this project hit the spotlight there have been high and low claims of replacing web developers in generals. Even the website has contradicting statements about this. At one instance, there are testimonials trying to imply that web designers/developers need to fear their jobs, on the other hand the website claims to love them.
+
+
+<br />
+
+I feel that this certainly a bit of a back slash on your average developer, look at it this way.  No matter how good a tailor, if you can just buy the product less good and MUCH MUCH cheaper then the later is bound to win. Especially when the product is claiming to customize as much as possible.
+
+That being said, an AI can never replace an actual coder or designer. Coding is an artistic process, even web coding and computers doing art is not even near reality. However, there is no doubt that this project will have impacts, and we better keep our eyes on it.
+
+<h6>
+Best Regards,
+Karishma
+</h6>
