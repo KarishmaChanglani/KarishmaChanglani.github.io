@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Welcome!
-description: "This is Karishma's site"
+description: "A blog for the lovers art and tech"
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url }}">
-        <h2 class="post-title">            {{ post.title }}
+        <h2 class="post-title">            
+        {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
