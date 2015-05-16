@@ -1,6 +1,6 @@
 ---
 title:      "Web Accessibility(Evo Hax)"
-subtitle:   " A New Face of Web "
+subtitle:   "Net for everybody "
 date:       2015-04-29 10:00
 header-img: "img/post-bg-03.jpg"
 ---
