@@ -2,7 +2,7 @@
 title:      "Web Accessibility(Evo Hax)"
 subtitle:   "Net for everybody "
 date:       2015-04-29 10:00
-header-img: "img/post-bg-03.jpg"
+header-img: "img/post-bg-04.jpg"
 ---
 
 Web is an important tool yet we often forget that. However there are people out there who don't have to luxury of easy web
